@@ -15,7 +15,7 @@ import {
   toastSuccessNotify,
   toastErrorNotify,
   toastWarnNotify,
-} from "../helper/Toastfy";
+} from "../helper/Toastfy.js";
 const firebaseConfig = {
   apiKey: "AIzaSyAlHwfxnhNTqs0HjN9Dvch6hF2c3PJrfKs",
   authDomain: "firedata-redux.firebaseapp.com",

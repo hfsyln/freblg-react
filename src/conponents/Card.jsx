@@ -5,7 +5,7 @@ import { UpdateComment, UpdateUser, useFetch } from "../auth/functions";
 import like from "../asset/like.png";
 import commentimg from "../asset/commentn.svg";
 import { useSelector } from "react-redux";
-import { toastWarnNotify, toastSuccessNotify } from "../helper/Toastfy";
+import { toastWarnNotify, toastSuccessNotify } from "../helper/Toastfy.js";
 
 const Card = ({ item }) => {
   const [count, setCount] = useState();
