@@ -17,13 +17,13 @@ import {
   toastWarnNotify,
 } from "../helper/Toastfy.js";
 const firebaseConfig = {
-  apiKey: "AIzaSyAlHwfxnhNTqs0HjN9Dvch6hF2c3PJrfKs",
-  authDomain: "firedata-redux.firebaseapp.com",
-  databaseURL: "https://firedata-redux-default-rtdb.firebaseio.com",
-  projectId: "firedata-redux",
-  storageBucket: "firedata-redux.appspot.com",
-  messagingSenderId: "904564410585",
-  appId: "1:904564410585:web:370d932af74c09d86256c8"
+  apiKey: "AIzaSyDhSlDOzSBVaHvY0LAP2OMWo1FLmLuusL4",
+  authDomain: "fireblog-react.firebaseapp.com",
+  databaseURL: "https://fireblog-react-default-rtdb.firebaseio.com",
+  projectId: "fireblog-react",
+  storageBucket: "fireblog-react.appspot.com",
+  messagingSenderId: "186668136091",
+  appId: "1:186668136091:web:4b8f0d3e9fe79e813cb83e"
 };
 // Initialize Firebase
 const firebase = initializeApp(firebaseConfig);
