@@ -42,6 +42,7 @@ const New = () => {
     } else {
       toastWarnNotify("Form Boş Bırakılamaz");
     }
+    
   };
 
   const { isLoading, cardList } = useFetch();
